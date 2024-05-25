@@ -38,3 +38,12 @@
     height: 300px; /* Set the fixed height for the carousel */
   }
 }
+.footer {
+    background-color: #1da1f2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
