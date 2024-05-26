@@ -1,4 +1,6 @@
-
+cit.{
+    font-style: italic;
+}
 
 @media (max-width: 768px) {
 .carousel {
