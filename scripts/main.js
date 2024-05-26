@@ -1,20 +1,15 @@
-document.querySelectorAll('.button-container').forEach(container => {
-    container.addEventListener('click', toggleHeart);
-    container.addEventListener('touchend', toggleHeart);
+const buttons = document.querySelectorAll('.heart-button');
 
-    function toggleHeart(event) {
-        if (event.target.closest('.heart-button')) {
-            // Toggle the 'clicked' class on the heart button
-            const heartButton = event.target.closest('.heart-button');
-            heartButton.classList.toggle('clicked');
+// Add a click event listener to each button
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Check if the button already has the 'clicked' class
+        if (button.classList.contains('clicked')) {
+            // If it does, remove the 'clicked' class
+            button.classList.remove('clicked');
+        } else {
+            // If it doesn't, add the 'clicked' class
+            button.classList.add('clicked');
         }
-    }
-});
-
-const button = document.getElementById('heart-button');
-
-// Add a click event listener to the button
-button.addEventListener('click', () => {
-    // Toggle the 'clicked' class on the button
-    button.classList.toggle('clicked');
+    });
 });
