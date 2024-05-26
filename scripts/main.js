@@ -11,7 +11,7 @@ document.querySelectorAll('.button-container').forEach(container => {
     }
 });
 
-const button = document.getElementById('colorButton');
+const button = document.getElementById('heart-button');
 
 // Add a click event listener to the button
 button.addEventListener('click', () => {
