@@ -1,0 +1,66 @@
+
+.cit {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+.carousel {
+    height: 300px; /* Set the fixed height for the carousel */
+  }
+}
+
+.footer {
+    background-color: #1da1f2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #e1e8ed;
+}
+
+.heart-button {
+    background-color: transparent;
+    border: none;
+    cursor: default;
+    padding: 0;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    fill: transparent; /* Default grey color */
+    transition: fill 0.3s ease;
+}
+
+.heart-button {
+    cursor: pointer;
+}
+
+
+.heart-button.clicked {
+    fill: #ed2f6b; /* Pink color when clicked */
+    stroke: #ed2f6b;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for button when it is clicked */
+button.clicked {
+    background-color: red;
+}
