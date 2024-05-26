@@ -50,17 +50,3 @@
     fill: #ed2f6b; /* Pink color when clicked */
     stroke: #ed2f6b;
 }
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: blue;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-/* Style for button when it is clicked */
-button.clicked {
-    background-color: red;
-}
