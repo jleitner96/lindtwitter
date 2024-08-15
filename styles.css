@@ -1,0 +1,156 @@
+.dark-mode {
+    background-color: #000000; /* Dark background color */
+    color: #fff; /* Light text color */
+    
+    .tweet {
+    border-color: #555; /* Dark border color */
+    background-color: #444; /* Dark background color for .tweet */
+    color: #fff; /* Light text color for .tweet */
+    }
+    .icon.moon {
+      display: none; /* Hide moon icon in dark mode */
+    }
+
+    .t-muted {
+      color: #b1b1b3dd;
+    }
+
+    .icon.sun {
+      display: inline;
+      color: #fff; /* Adjust sun icon color for dark mode */
+  }
+  
+  }
+
+  .dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .icon {
+    fill: #333; /* Default icon color */
+  }
+  .icon.sun {
+    display: none; /* Hide sun icon initially */
+  }
+  /* Dark mode styles for .tweet */
+
+  .header{
+      background-color: #1da1f2;
+  }
+
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .tweet {
+    border: 1px solid #e1e8ed;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: none;
+    background-color: #ffffff;
+  }
+
+  .t-muted {
+  color: #707375; /* Light text color for dark mode */
+  }
+  .tweet-text {
+    font-size: 20px;
+  }
+  
+  .username {
+      color: #888d88;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+  .tweet-text .hashtag, .tweet-text .mention {
+    color: #1da1f2;
+  }
+
+  a {
+    text-decoration: none; /* Remove underline */
+    color: #1da1f2; /* Change link color */
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e1e8ed;
+    border-radius: 0.5rem; /* Adjust the value for the desired roundness */
+  }
+
+
+  .like-button.liked {
+    color:#e0245e;
+  }
+
+
+  .icon.heart {
+    display: none; /* Hide sun icon initially */
+  }
+  .icon-button {
+    background: none;
+    border: none;
+    color: #657786;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .icon-button:hover {
+    color: #1da1f2;
+    cursor: default;
+  }
+  .like-button:hover {
+    color: #e0245e;
+  }
+  .retweet-button:hover {
+    color: #24e02a;
+    cursor: default;
+  }
+  .share-button:hover {
+    color: #1da1f2;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .retweet-button {
+    background: none;
+    border: none;
+    color: #657786;
+    font-size: 20px;
+    cursor: default;
+  }
+
+  .like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Adjust size as needed */
+    color: #657786; /* Default color */
+  }
+  .like-button .icon {
+    transition: color 0.3s;
+  }
+
+  .share-button {
+    background: none;
+    border: none;
+    color: #657786;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .custom-tooltip{
+    --bs-tooltip-bg: #1da1f2;
+  }
