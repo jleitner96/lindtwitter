@@ -13,14 +13,15 @@
 <body>
   <header>
     <div class="row justify-content-center" style="background-color:#1da1f2">
-      <div class="mt-2">
+      <div class="mt-2 text-center">
         <h1 style="color: aliceblue;">Jenny Lind in Wien</h1>
       </div>
     </div>
     <div class="row justify-content-center" style="background-color:#1da1f2">
-      <div class="row">
-        <div class="col-6"><a href="infos.html" style="color: aliceblue;">Mehr Infos</a></div>
-        <div class="col-6"><a href="index.html" style="color: aliceblue;">Jenny's Twitter</a></div>
+      <div class="row text-center">
+        <div class="col-4"><a href="infos.html" style="color: aliceblue;">Mehr Infos</a></div>
+        <div class="col-4"><a href="index.html" style="color: aliceblue;">Jenny's Social Media</a></div>
+        <div class="col-4"><a href="map.html" style="color: aliceblue;">Orte</a></div>
       </div>
     </div>
     <button class="dark-mode-toggle" onclick="toggleDarkMode()">
@@ -100,6 +101,52 @@
             </div>
             <div class="t-muted mt-2">
               3:00 PM · Apr 22, 1846
+            </div>
+            <div class="d-flex justify-content-between mt-2 mb-3">
+              <div>
+                <button class="icon-button">
+                  <i class="far fa-comment"></i>
+                </button>
+                <span class="comments bold">0</span>
+              </div>
+              <div>
+                <button class="icon-button retweet-button">
+                  <i class="fas fa-retweet"></i>
+                </button>
+                <span class="retweets bold">0</span>
+              </div>
+              <div>
+                <button class="like-button">
+                  <i class="icon far fa-heart"></i>
+                </button>
+                <span class="likes bold">0</span>
+              </div>
+              <div>
+                <button class="share-button tooltip-button custom-tooltip">
+                  <i class="fas fa-share"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tweet" id="tweet2.1">
+          <div class="row">
+            <div class="col-1">
+              <div class="d-flex align-items-start">
+                <img src="images/jenny.jpg" alt="Profile Picture" class="rounded-circle me-3" width="48" height="48">
+              </div>
+            </div>    
+            <div class="col-10 align-items-center ms-3">
+              <div class="row"><span class="fw-bold me-1">Jenny Lind</span></div>
+              <div class="row"><span class="t-muted">@TheSwedishNightingale</span></div>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="tweet-text" >
+              Ihr könnt euch nicht vorstellen wie NERVÖS ich heute war 😰. Ohne <span class="mention">@XXX</span> wäre ich wohl nicht aufgetreten. Dabei war alles unbegründet, 16!! mal musste ich wieder auf die Bühne - DANKE Wien.
+            </div>
+            <div class="t-muted mt-2">
+              10:37 PM · Apr 22, 1846
             </div>
             <div class="d-flex justify-content-between mt-2 mb-3">
               <div>
@@ -234,7 +281,7 @@
           </div>
           <div class="row mt-2">
             <div class="tweet-text" >
-              Morgen große Wohltätigkeits-Akademie im <span class="mention"><a href="https://www.theater-wien.at/de/ueber-uns/geschichte" target="_blank">@TheaterAnDerWien</a></span> mit <span class="mention">@Tichatschek</span> und <a href="https://de.wikipedia.org/wiki/Josef_Staudigl_(S%C3%A4nger,_1807)" target="_blank"><span class="mention">@StaudiglJ</span></a> sowie <span class="hashtag">#schwedischen</span> Liedern aus der Heimat!
+              Morgen große Wohltätigkeits-Akademie im <span class="mention"><a href="https://www.theater-wien.at/de/ueber-uns/geschichte" target="_blank">@TheaterAnDerWien</a></span> mit <span class="mention">@Tichatschek</span> und <a href="https://de.wikipedia.org/wiki/Josef_Staudigl_(S%C3%A4nger,_1807)" target="_blank"><span class="mention">@StaudiglJ</span></a> sowie <span class="hashtag">#schwedischen</span> Liedern aus der Heimat! 🇸🇪
             </div>
             <div>
               <img src="images/wohlt.jpg" alt="Zeitungsartikel" class="tweet-img mt-2">
@@ -1148,7 +1195,7 @@
           </div>
           <div class="row mt-2">
             <div class="tweet-text" >
-              Bei totalem Regenguss mitten in der Nacht hier in <span class="hashtag">#Linz</span> gestrandet! Vielen Dank an die 3 netten Herre für die Gesellschaft während unsere Kutsche repariert wurde. Jetzt weiter richtung <span class="hashtag">#London</span>! 
+              Bei totalem Regenguss mitten in der Nacht hier in <span class="hashtag">#Linz</span> gestrandet! Vielen Dank an die 3 netten Herren für die Gesellschaft während unsere Kutsche repariert wurde. Jetzt weiter richtung <span class="hashtag">#London</span>! 🇬🇧
             </div>
             <div class="t-muted mt-2">
               04:15 AM · Apr 9, 1847
@@ -1194,7 +1241,8 @@
           </div>
           <div class="row mt-2">
             <div class="tweet-text">
-              Vielen Dank <a href="https://www.sophie-drinker-institut.de/stollewerk-nina" target="_blank"><span class="mention">@DieStollewerk</span></a> für die Widmung dieser beiden Lieder! 
+              Vielen Dank <a href="https://www.sophie-drinker-institut.de/stollewerk-nina" target="_blank"><span class="mention">@DieStollewerk</span></a> für die Widmung dieser beiden Lieder!
+              <p><span class="mention">#WomenCoposers</span> <span class="mention">#Komponistinnen</span></p>
              </div>
               <div>
                 <img src="images/Stollewerk.jpg" alt="Tweet_Nina_Stollewerk" class="tweet-img mt-2">
@@ -1234,5 +1282,6 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
+  <script src="https://app.Lumi.education/api/v1/h5p/core/js/h5p-resizer.js"></script>
 </body>
 </html>
