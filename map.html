@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mock Twitter Account</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="styles.css" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+        <header>
+            <div class="row justify-content-center" style="background-color:#1da1f2">
+                <div class="mt-2 text-center">
+                    <h1 style="color: aliceblue;">Jenny Lind in Wien</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="background-color:#1da1f2">
+                <div class="row text-center">
+                    <div class="col-4"><a href="infos.html" style="color: aliceblue;">Mehr Infos</a></div>
+                    <div class="col-4"><a href="index.html" style="color: aliceblue;">Jenny's Social Media</a></div>
+                    <div class="col-4"><a href="map.html" style="color: aliceblue;">Orte</a></div>
+                </div>
+            </div>
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">
+                <!-- Moon icon SVG -->
+                <i class="fa-solid fa-moon fa-xl icon moon"></i>
+                <i class="fa-solid fa-sun fa-xl icon sun"></i>
+            </button>
+        </header>
+        <div class="container">
+        <div class="mt-5 text-center">
+        <h1>Orte Jenny Lind in Wien</h1>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-sm-10"><p>Auf dieser Karte finden Sie Orte vermerkt, an welchen Jenny Lind während Ihrer Engagements in Wien aufgetreten ist oder gewohnt hat. Durch Klicken auf die Button erhalten Sie weitere Informationen zu den Orten.</p>
+        </div>
+            <div>
+                <iframe src="https://app.Lumi.education/api/v1/run/SzIsgB/embed" width="800" height="720" allowfullscreen="allowfullscreen"></iframe>
+            </div>    
+        </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://app.Lumi.education/api/v1/h5p/core/js/h5p-resizer.js"></script>
+    </body>
+</html>
