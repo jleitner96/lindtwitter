@@ -21,7 +21,7 @@ class Tweet {
 
       this.shareButton.addEventListener('click', () => {
         const tweetId = this.tweetElement.id;
-        const tweetUrl = `https://yourwebsite.com/tweet/#${tweetId}`;
+        const tweetUrl = `jleitner96.github.io/lindtwitter/index.html/#${tweetId}`;
         const subject = 'Check out this about Jenny Lind!';
         const body = `Check out this tweet: ${tweetUrl}`;
         window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
